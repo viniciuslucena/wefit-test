@@ -14,6 +14,7 @@ export const Header = styled.div`
 
 export const BasketSession = styled.div`
   display: flex;
+  align-items: center;
   font-weight: 600;
   text-align: right;
   gap: 1rem;
