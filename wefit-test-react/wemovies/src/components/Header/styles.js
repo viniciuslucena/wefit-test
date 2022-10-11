@@ -11,3 +11,23 @@ export const Header = styled.div`
     font-size: 2rem;
   }
 `
+
+export const BasketSession = styled.div`
+  display: flex;
+  font-weight: 600;
+  text-align: right;
+  gap: 1rem;
+
+  .myCart {
+    font-size: 1.4rem;
+  }
+
+  .totalItens {
+    font-size: 1.2rem;
+    color: #999999
+  }
+
+  svg {
+    cursor: pointer;
+  }
+`
