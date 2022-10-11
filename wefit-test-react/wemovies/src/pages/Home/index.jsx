@@ -1,5 +1,11 @@
+import { Header } from "../../components/Header"
+
+import * as S from './styles'
+
 export const Home = () => {
   return (
-    <h1>Home</h1>
+    <S.Container>
+      <Header />
+    </S.Container>
   )
 }
