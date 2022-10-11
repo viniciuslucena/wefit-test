@@ -10,7 +10,7 @@ export const MoviesList = styled.div`
 `
 
 export const Loading = styled.div`
-  height: calc(100vh - 8.3rem);
+  height: calc(100vh - 12.4rem);
   display: flex;
   align-items: center;
   justify-content: center;
