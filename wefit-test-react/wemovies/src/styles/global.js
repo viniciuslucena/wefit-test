@@ -15,5 +15,6 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: 'Open Sans';
+    font-size: 62.5%;
   }
 `
