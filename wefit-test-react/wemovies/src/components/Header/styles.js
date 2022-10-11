@@ -11,6 +11,11 @@ export const Header = styled.div`
   h1 {
     font-size: 2rem;
   }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 `
 
 export const BasketSession = styled.div`
