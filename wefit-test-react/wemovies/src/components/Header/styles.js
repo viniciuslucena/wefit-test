@@ -6,6 +6,7 @@ export const Header = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 2.4rem 0;
+  margin-bottom: 41px;
 
   h1 {
     font-size: 2rem;
