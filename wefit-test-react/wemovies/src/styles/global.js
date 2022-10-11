@@ -13,8 +13,13 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
+  html {
     font-family: 'Open Sans';
     font-size: 62.5%;
+  }
+
+  body {
+    background-color: var(--background);
+    color: #fff;
   }
 `
