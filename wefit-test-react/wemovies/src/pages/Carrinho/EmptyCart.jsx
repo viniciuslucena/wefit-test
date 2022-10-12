@@ -9,9 +9,11 @@ export const EmptyCart = () => {
       <p>Parece que não há nada por aqui :(</p>
       <img src="assets/empty-cart.png" alt="Carrinho vazio" />
       <hr />
-      <Link to="/" className="btnContainer">
-        <Button>VOLTAR</Button>
-      </Link>
+      <div className="btnContainer">
+        <Link to="/">
+          <Button>VOLTAR</Button>
+        </Link>
+      </div>
     </S.EmptyCart>
   );
 };

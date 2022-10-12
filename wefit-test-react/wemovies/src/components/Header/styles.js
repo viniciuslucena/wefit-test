@@ -16,6 +16,10 @@ export const Header = styled.div`
     color: #fff;
     text-decoration: none;
   }
+
+  @media screen and (max-width: 769px) {
+    padding: 0 12px;
+  }
 `
 
 export const BasketSession = styled.div`
@@ -36,5 +40,11 @@ export const BasketSession = styled.div`
 
   svg {
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 376px) {
+    .myCart {
+      display: none;
+    }
   }
 `

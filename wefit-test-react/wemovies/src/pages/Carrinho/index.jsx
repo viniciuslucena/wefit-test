@@ -2,6 +2,7 @@ import { useContext } from "react"
 
 import { Header } from "../../components/Header"
 import { CartContext } from "../../context/CartContext"
+import { CartWithItem } from "./CartWithItem"
 import { EmptyCart } from "./EmptyCart"
 
 import * as S from './styles'
@@ -15,7 +16,7 @@ export const Carrinho = () => {
       {productsInCart.length <= 0 ? (
         <EmptyCart />
       ) : (
-        <h1>Tem item</h1>
+        <CartWithItem />
       )}
     </S.Container>
   )

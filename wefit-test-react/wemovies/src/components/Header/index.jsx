@@ -8,6 +8,10 @@ import * as S from "./styles";
 export const Header = () => {
   const { productsInCart } = useContext(CartContext);
 
+  const totalProducts = productsInCart.reduce((acc, obj) => {
+    return acc + obj.quantity;
+  }, 0);
+
   return (
     <S.Header>
       <Link to="/">
@@ -16,10 +20,10 @@ export const Header = () => {
       <S.BasketSession>
         <div>
           <p className="myCart">Meu Carrinho</p>
-          {productsInCart.length === 1 ? (
-            <p className="totalItens">{productsInCart.length} item</p>
+          {totalProducts === 1 ? (
+            <p className="totalItens">{totalProducts} item</p>
           ) : (
-            <p className="totalItens">{productsInCart.length} itens</p>
+            <p className="totalItens">{totalProducts} itens</p>
           )}
         </div>
         <Link to="/carrinho">
