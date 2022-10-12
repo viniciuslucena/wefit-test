@@ -4,7 +4,7 @@
 
 ## 🚀 Executando o projeto
 
-Para instalar o projeto, siga estas etapas:
+### Para instalar o WeMovies, siga estas etapas:
 Tenha o json-server instalado na máquina. Instale através do comando:
 ```
 npm install -g json-server
