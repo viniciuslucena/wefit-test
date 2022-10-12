@@ -17,7 +17,7 @@ export const Table = () => {
           <th></th>
         </tr>
         {productsInCart.map((product, id) => (
-          <TableRow id={id} product={product} />
+          <TableRow id={id} product={product} key={id} />
         ))}
       </table>
     </S.TableContainer>
